@@ -84,3 +84,19 @@ However, the parameters can be adjusted to meet specific needs or preferences.
 ## GPT Best Practices
 
 Above parameters, when combined with [GPT Best Practices](https://platform.openai.com/docs/guides/gpt-best-practices) yield best results.
+
+## Reference Format
+
+```
+Objective: To learn about the history of machine learning
+Persona: Act as a university machine learning professor
+Tone: Formal and educational.
+Answer Format: Q&A format with bullet points, case study & analogies
+Response Size: Detailed
+
+Contextual Information: I am a professional software developer with 10 years of experience in full stack development but I have absolutely no prior understanding of machine learning.
+So, please explain in as detail as possible while drawing analogies from backend development. 
+
+[Start of conversation]
+
+```
