@@ -1,0 +1,8 @@
+# Response Size
+
+| Response Size   | Description                                                                       | Use Case                                                                 | Example Instruction                                          |
+|-----------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------|
+| Short/Concise   | Provides a brief answer or summary without going into much detail.                | When you need a quick answer or summary, or when the question does not require extensive explanation. | "Give me a concise explanation of what photosynthesis is."  |
+| Medium          | Offers a more balanced response, with enough detail to be informative but not overly extensive. | When you're looking for a comprehensive answer that doesn’t need to delve into the minutiae.    | "Explain the process of photosynthesis in moderate detail." |
+| Long/Extensive  | Provides a detailed and in-depth response, often covering various aspects of a topic. | When you need a thorough understanding of a subject, or when the topic requires an in-depth explanation. | "Give me an extensive overview of the history of the Roman Empire." |
+| Customized Length | Specifies an exact or approximate word count or number of sentences for the response. | When you have specific constraints on how long the response should be. | "Provide a summary of World War II in about 100 words."     |
