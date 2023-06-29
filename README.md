@@ -1,2 +1,2 @@
-# gpt-prompting
-Prompting Possible Inputs as per ChatGPT
+# ChatGPT Prompts
+Prompts Inputs by ChatGPT
