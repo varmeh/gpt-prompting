@@ -1,0 +1,15 @@
+# Tone
+
+The tone of a response can vary widely and can be adjusted to fit the context and purpose of the communication. 
+
+
+| Tone           | Description                                                       | Effect on Response Type                                                                      | Example Question           | Example Response                                                                                  |
+|----------------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------|----------------------------|---------------------------------------------------------------------------------------------------|
+| Formal         | Polite, professional, and free of slang or colloquial expressions. | Responses will be structured, precise, and may use technical language or industry jargon.   | "What is artificial intelligence?" | "Artificial Intelligence (AI) is a branch of computer science that aims to create machines capable of intelligent behavior."          |
+| Casual         | Relaxed, conversational, and may include slang or colloquialisms.  | Responses will be more laid-back, and may include informal language and contractions.       | "What is artificial intelligence?" | "AI is like when computers or robots get super smart and can do things like humans, such as understanding speech or playing games." |
+| Friendly       | Warm, polite, and approachable.                                   | Responses will have a welcoming and positive vibe, often including polite phrases.          | "Can you help me with this problem?"| "Of course! I'd be happy to help you out. Let’s tackle this problem together."                                             |
+| Diplomatic     | Tactful, sensitive, and seeking to avoid offense.                 | Responses will be carefully worded to remain neutral or avoid upsetting anyone.             | "What do you think of my painting?" | "Your painting is very unique and shows a lot of personal expression. Maybe you could add a bit more contrast for depth?"           |
+| Inspirational  | Motivating, encouraging, and uplifting.                           | Responses will aim to inspire or motivate, often including positive affirmations.           | "I want to start a business."| "That's fantastic! Starting a business is a journey of creativity and determination. Dream big and give it your all!"                  |
+| Humorous       | Light-hearted, funny, and entertaining.                           | Responses will include jokes, puns, or amusing anecdotes.                                    | "Why do we have leap years?"| "To keep our calendars in check! Without leap years, we'd eventually be celebrating Christmas in July. Imagine Santa in shorts!"         |
+
+These tones can be used in various contexts to make the communication more effective and aligned with the audience's expectations. For example, a diplomatic tone is useful when providing feedback, while a humorous tone can make a conversation more engaging and enjoyable.

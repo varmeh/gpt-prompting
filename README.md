@@ -8,10 +8,10 @@ When communicating with a language model, several factors can be specified to sh
 | Parameter            | Description                                                                                           | Example Input                                                                                                  |
 |----------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Objective            | State the goal or purpose of the conversation.                                                        | "I want to learn about the history of the internet."                                                           |
-| Persona              | Specify a role for the AI to assume during the conversation.                                          | "Act as a detective from a noir film."                                                                        |
-| Tone                 | Indicate the desired tone of the conversation (e.g., formal, informal, friendly, serious, humorous). | "Use a humorous tone."                                                                                        |
+| [Persona](./docs/persona.md)              | Specify a role for the AI to assume during the conversation.                                          | "Act as a detective from a noir film."                                                                        |
+| [Tone](./docs/tone.md)                 | Indicate the desired tone of the conversation (e.g., formal, informal, friendly, serious, humorous). | "Use a humorous tone."                                                                                        |
 | Technicality Level   | Request responses that match your expertise in a subject (e.g., beginner, intermediate, expert).    | "Explain the concept of black holes at an intermediate level."                                                |
-| Length of Responses  | Specify the desired length of the responses (e.g., brief, detailed).                                  | "Give me a summary of the French Revolution."                                                           |
+| Response Size        | Specify the desired length of the responses (e.g., brief, detailed).                                  | "Give me a summary of the French Revolution."                                                           |
 | Citation Preferences | State preferences for sources and references in responses.                                            | "Include citations from scientific journals."                                                                 |
 | Bias and Neutrality  | Indicate if you want responses to be neutral, balanced, or from a specific viewpoint.                | "Give me a balanced overview of the arguments for and against climate change."                                |
 | Answer Format        | Different formats in which answers could be generated                                                 | "Give me your answers in Q&A format with bullet points, case studies & analogies"                                |
@@ -29,6 +29,7 @@ Technicality Level: Intermediate.
 Length of Responses: Detailed.
 Citation Preferences: Include references to scientific papers and books.
 Bias and Neutrality: Present a balanced view of historical developments.
+Answer Format: Q&A format with bullet points, case study & analogies
 Contextual Information: I have a basic understanding of classical physics and am keen to learn how quantum mechanics evolved.
 
 [Start of conversation]
@@ -38,10 +39,42 @@ This template would instruct the model to provide detailed, educational response
 
 Feel free to mix and match these parameters based on your needs, and let me know if you have any questions or need further clarification!
 
-## Effect of the Parameters
+*Note*: Of all the parameters metioned, `Citation Preferences` & `Bias & Neutrality` would be hardly used on a day to day basis. They have been kept for the sake of completion 
 
-Each of these parameters changes both the content & tone of the response.
+## Parameter Effect
 
-So, this section would cover the effect in detail.
+These parameters effect different aspects of a response.
 
-### [Persona](./docs/persona.md)
+The same has been captured in next table:
+
+| Key Parameter  | Part of the Response Affected   | Description and Examples                                                                                                             |
+|----------------|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Objective      | Content, Focus                 | Defines the main goal or purpose of the response. For example, if the objective is to educate, the content will be informative and detailed. If the objective is to entertain, the content may be humorous or engaging.        |
+| Tone           | Tone, Style                    | Affects the manner in which the content is delivered. For example, a formal tone may use professional language, while a friendly tone might be more conversational.                           |
+| Answer Format  | Structure, Organization        | Determines how the information is presented. For example, a bullet-point format will list information, while a Q&A format will present information in a question-and-answer style.         |
+| Role-Play      | Perspective, Voice             | Affects the viewpoint and character from which the response is given. For example, role-playing as a scientist might focus on data and evidence, while role-playing as a historian might focus on historical context.       |
+| Response Size  | Length, Detail                 | Determines the amount of information given in a response. For example, a concise response may provide a brief answer, while an extensive response would go into more detail.                 |
+| Persona        | Personality, Voice             | Affects the character traits and style that is portrayed in the response. For example, a teacher persona might be educational and patient, while a comedian persona might be humorous and witty.|
+
+These parameters can be used in combination to tailor the responses to specific needs and preferences. For example, if you want a detailed and informative response with a friendly tone, you might specify an educational objective, a friendly tone, an extensive response size, and a teacher persona.
+
+## Parameter Default Values
+
+The default values for the key parameters are as follows:
+
+| Key Parameter  | Default Value   | Description                                                                                                             |
+|----------------|-----------------|-------------------------------------------------------------------------------------------------------------------------|
+| Objective      | General         | If no specific objective is stated, the response aims to provide general information or assistance based on the query. |
+| Tone           | Neutral/Formal  | The default tone is typically neutral or formal, focusing on delivering information without any specific stylistic tone.|
+| Answer Format  | Paragraph       | Information is generally provided in a paragraph format unless a different format is requested.                        |
+| Role-Play      | None            | By default, responses are not given in role-play. The language model doesn't adopt a specific character or perspective unless instructed to do so.|
+| Response Size  | Medium          | Responses are usually of medium length, providing enough information to answer the query without being overly extensive.|
+| Persona        | None            | The default persona is neutral. The language model doesn't adopt a specific personality or traits unless instructed to do so.|
+
+It's important to note that these defaults are designed to provide balanced and informative responses in a wide range of situations. 
+
+However, the parameters can be adjusted to meet specific needs or preferences.
+
+## GPT Best Practices
+
+Above parameters, when combined with [GPT Best Practices](https://platform.openai.com/docs/guides/gpt-best-practices) yield best results.
