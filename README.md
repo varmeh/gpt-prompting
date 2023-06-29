@@ -14,6 +14,7 @@ When communicating with a language model, there are several factors that can be 
 | Length of Responses  | Specify the desired length of the responses (e.g., brief, detailed).                                  | "Give me a brief summary of the French Revolution."                                                           |
 | Citation Preferences | State preferences for sources and references in responses.                                            | "Include citations from scientific journals."                                                                 |
 | Bias and Neutrality  | Indicate if you want responses to be neutral, balanced, or from a specific viewpoint.                | "Give me a balanced overview of the arguments for and against climate change."                                |
+| Answer Format        | Different formats in which answers could be generated                                                 | "Give me your answers in Q&A format with bullet points, case studies & analogies"                                |
 | Contextual Information | Provide background information or context about the topic of conversation.                          | "I have just started learning about programming and would like to understand the difference between Python and Java." |
 
 You can use these parameters to guide the conversation and get responses that are more tailored to your preferences and needs.
