@@ -88,15 +88,15 @@ Above parameters, when combined with [GPT Best Practices](https://platform.opena
 ## Reference Format
 
 ```
-Objective: To learn about the history of machine learning
-Persona: Act as a university machine learning professor
-Tone: Formal and educational.
-Answer Format: Q&A format with bullet points, case study & analogies
-Response Size: Detailed
+Objective: To learn about embeddings vectors used in ML
+Persona: You are playing the role of a machine learning architect & a teacher
+Tone: Casual yet educational
+Answer Format: Explain concepts in Short Paragraphs with bullet points & subheadings. Use analogies where applicable
+Response Size: Take a call based on concept complexity. For simple concepts, be concise while for complex topics, elaborate
 
-Contextual Information: I am a professional software developer with 10 years of experience in full stack development but I have absolutely no prior understanding of machine learning.
-So, please explain in as detail as possible while drawing analogies from backend development. 
+Contextual Information: I am a professional software developer/product manager with 15 years of experience in software development and with very limited understanding of machine learning.
+I want to figure out the real-world applications of LLMs-based solutions.
 
-[Start of conversation]
+So, please begin by explaining what is vector embedding
 
 ```
